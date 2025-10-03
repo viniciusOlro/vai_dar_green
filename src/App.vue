@@ -133,4 +133,13 @@ main {
     cursor: pointer;
   }
 }
+
+@media (max-width: 768px) {
+  main {
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
 </style>
